@@ -180,7 +180,7 @@
 
 .usersRoutes{
     width: 63%;
-    height: 650px;
+    height: 65%;
     background-color: #fcfcfc; 
     margin-left: 2%;
     border-top-left-radius: 12px;
@@ -284,7 +284,7 @@
 }
 
 .usersInfo{
-    height: 650px;
+    height: 65%;
     width: 33%;
     margin-right: 2%;
     background-color: #fcfcfc;

@@ -5,8 +5,8 @@
       <router-link to="/" class="linkLogoHomePage"><img src="../assets/HomeLogo.svg"></router-link>
     </div>
 
-    <div class="currrentPage">
-      <h1></h1>
+    <div class="currentPage">
+      <a href="https://github.com/valsora/ppGroup5MobileApp" target="_blank">Ссылка на приложение</a>
     </div>
 
     <div class="linkToLK">
@@ -44,6 +44,20 @@ export default {
 
 .home{
   padding: 12px 8px 8px 8px;
+}
+
+.currentPage{
+  padding: 15px 0px;
+}
+
+.currentPage a{
+  color: #002051;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-size: 35px;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: none !important;
 }
 
 .linkLogoHomePage img:hover{

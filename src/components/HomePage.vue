@@ -234,9 +234,9 @@ import { isPhone } from "../validators/phoneValidate";
 
         created(){
             this.currentUser = JSON.parse(localStorage.getItem('user'))
-            this.userData.token_mobile =  this.currentUser.data.user.token_mobile
             if (localStorage.getItem('isAuthorized') === 'true'){
                 this.isAuth = true
+                this.userData.token_mobile =  this.currentUser.data.user.token_mobile
                 this.userData.id = Number(this.currentUser.data.user.id)
                 this.userData.surname = this.currentUser.data.user.surname
                 this.userData.name = this.currentUser.data.user.name

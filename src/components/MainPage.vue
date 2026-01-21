@@ -41,7 +41,7 @@
                     <div class="routeText">
                         <div class="distance">Расстояние: {{route.distance}}km</div>
                         <div class="time">Время: {{route.users_travel_time}}</div>
-                        <div class="authorName"><router-link to="/AuthorsProfile" @click="saveUserID(Number(route.user_id))">Автор: {{ route.user_name }}</router-link></div>
+                        <div class="authorName"><router-link to="/lk" @click="saveUserID(Number(route.user_id))">Автор: {{ route.user_name }}</router-link></div>
                         <div class="rating">
                             <div v-if="route.avg_estimation === null">
                                 Оценки нет
@@ -79,7 +79,8 @@
             this.getRoutes()
             if (localStorage.getItem('isAuthorized') === 'true'){
                 this.authStatus = true
-            }   
+            }
+            console.log(this.authStatus);   
         },
 
         methods: {

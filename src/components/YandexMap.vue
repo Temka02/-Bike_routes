@@ -2,7 +2,7 @@
     <yandex-map
         v-model="map"
         @map-was-loaded="onMapWasLoaded"
-        :mapsRenderWaitDuration="10000" 
+        :mapsRenderWaitDuration="3000" 
         :settings="{
             location: {
             center: [this.centerCoord1, this.centerCoord2],
